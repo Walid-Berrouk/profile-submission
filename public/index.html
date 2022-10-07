@@ -16,35 +16,36 @@
             <p class="col-lg-10 fs-4">Below is an example of a Profile Submission form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <form class="p-4 p-md-5 border rounded-3 bg-light" id="form-submission" onsubmit="
+            form.submit()">
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="text" class="form-control" id="firstname" placeholder="name@example.com">
                 <label for="floatingInput">First Name</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="text" class="form-control" id="lastname" placeholder="name@example.com">
                 <label for="floatingInput">Last Name</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="number" class="form-control" id="age" placeholder="name@example.com">
                 <label for="floatingInput">Age</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
               </div>
               <div class="d-flex justify-content-between checkbox mb-3">
                 <label>
                    Are you a Student ?
                 </label>
-                <input type="checkbox" value="remember-me">
+                <input type="checkbox" id="isStudent" value="remember-me">
               </div>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="text" class="form-control" id="username" placeholder="name@example.com">
                 <label for="floatingInput">Username</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" class="form-control" id="password" placeholder="Password">
                 <label for="floatingPassword">Password</label>
               </div>
               <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
@@ -57,6 +58,7 @@
 
       <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 </html>
