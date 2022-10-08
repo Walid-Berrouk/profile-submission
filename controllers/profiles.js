@@ -80,6 +80,20 @@ function addProfile(req, res) {
     }
 }
 
+function getProfiles(req, res) {
+    try {
+        const profiles = require('../storage/profiles.json')
+
+        res.send(profiles)
+    } catch (error) {
+        res.writeHead(500)
+        res.send("Sorry, Data inavailable !")
+    }
+
+
+}
+
 module.exports = {
     addProfile,
+    getProfiles
 }

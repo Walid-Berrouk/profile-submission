@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require('cors')
-const { addProfile } = require("./controllers/profiles")
+const { addProfile, getProfiles } = require("./controllers/profiles")
 const myLogger = require('./middlewares/logger')
 
 // Init the app
@@ -18,6 +18,7 @@ app.use('/static', express.static('public'))
 
 // Create Route handlers
 app.post('/profile', addProfile)
+app.get('/profiles', getProfiles)
 
 // Listen on a port
 
