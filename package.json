@@ -1,0 +1,29 @@
+{
+  "name": "profile-submission",
+  "version": "1.0.0",
+  "description": "This is a profile submission api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start",
+    "serve": "nodemon serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walid-Berrouk/profile-submission.git"
+  },
+  "author": "Walid Berrouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Walid-Berrouk/profile-submission/issues"
+  },
+  "homepage": "https://github.com/Walid-Berrouk/profile-submission#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "joi": "^17.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

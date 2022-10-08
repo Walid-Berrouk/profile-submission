@@ -1,13 +1,4 @@
 
-// function handleSubmit(event) {
-//     event.preventDefault();
-//     const onlyInputs = document.querySelectorAll('#form-submission input');
-
-//     onlyInputs.forEach(input => {
-//         console.log(input.value);
-//     });
-// }
-
 const form  = document.getElementById('form-submission');
 
 
@@ -29,14 +20,15 @@ form.addEventListener('submit', (event) => {
 
     fetch('http://localhost:5000/profile', {
         method: 'POST',
-        body : JSON.stringify(profile) ,
+        mode: 'cors',
+        body : JSON.stringify(profile),
         headers: {
-          "Content-type": "application/json; charset=UTF-8"
-      }
+          "Content-type": "application/json"
+        }
     })
 });
 
-// Data we have
+// Data we have :
 // firstname
 // lastname
 // age
