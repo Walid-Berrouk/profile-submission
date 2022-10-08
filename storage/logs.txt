@@ -1,0 +1,17 @@
+A new request with method GET at /static/index.html? received at 1665236532077 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/script.js received at 1665236532111 With following infos : lastname : undefined; firstname : undefined;
+ With following infos : lastname : undefined; firstname : undefined;
+ With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/index.html? received at 1665236666787 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/script.js received at 1665236666819 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/index.html? received at 1665236690121 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/script.js received at 1665236690159 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/index.html? received at 1665236719760 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/script.js received at 1665236719798 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/index.html? received at 1665236757872
+A new request with method GET at /static/js/script.js received at 1665236757932
+A new request with method GET at /static/index.html? received at 1665236859333
+A new request with method GET at /static/js/script.js received at 1665236859379
+A new request with method GET at /static/index.html? received at 1665236876612
+A new request with method POST at /profile received at 1665236876646 With following infos : lastname : ; firstname : Walid;
+A new request with method GET at /static/js/script.js received at 1665236876658

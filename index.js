@@ -1,6 +1,7 @@
 const express = require("express")
-const { addProfile } = require("./controllers/profiles")
 const cors = require('cors')
+const { addProfile } = require("./controllers/profiles")
+const myLogger = require('./middlewares/logger')
 
 // Init the app
 const app = express()
@@ -9,6 +10,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded())
+app.use(myLogger)
 
 
 // File serving
