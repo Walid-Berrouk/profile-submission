@@ -84,3 +84,24 @@ A new request with method GET at /static/js/script.js received at 1665242326906
 A new request with method GET at /static/profiles.html received at 1665242338690
 A new request with method GET at /static/js/profiles.js received at 1665242338843
 A new request with method GET at /profiles received at 1665242339028
+A new request with method GET at /users received at 1666345651893
+A new request with method POST at /user received at 1666346525672
+A new request with method POST at /user received at 1666346611735
+A new request with method POST at /user received at 1666346628157
+A new request with method POST at /user received at 1666346647517 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666346707166 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666348076105 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /users received at 1666348157785
+A new request with method POST at /user received at 1666348390419 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666348438869 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666348489006 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666348507283 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666350268254 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666350270924 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666350276761 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /user/0 received at 1666350329559
+A new request with method GET at /user/2 received at 1666350334828
+A new request with method POST at /user received at 1666350602347 With following infos : lastname : undefined; firstname : undefined;
+A new request with method POST at /user received at 1666351127968 With following infos : lastname : undefined; firstname : undefined;
+A new request with method PUT at /user/0 received at 1666351658042 With following infos : lastname : undefined; firstname : undefined;
+A new request with method DELETE at /user/0 received at 1666352892822

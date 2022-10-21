@@ -2,6 +2,7 @@ const express = require("express")
 const cors = require('cors')
 const { addProfile, getProfiles } = require("./controllers/profiles")
 const myLogger = require('./middlewares/logger')
+const { getUsers, addUser, getUser, modifyUser, deleteUser } = require("./controllers/users")
 
 // Init the app
 const app = express()
@@ -17,8 +18,18 @@ app.use(myLogger)
 app.use('/static', express.static('public'))
 
 // Create Route handlers
+
+// Profiles
 app.post('/profile', addProfile)
 app.get('/profiles', getProfiles)
+
+// Users
+app.get('/users', getUsers)
+app.post('/user', addUser)
+app.get('/user/:id', getUser)
+app.put('/user/:id', modifyUser)
+app.delete('/user/:id', deleteUser)
+
 
 // Listen on a port
 
