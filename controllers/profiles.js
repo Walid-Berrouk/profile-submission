@@ -2,6 +2,7 @@ const { ref } = require('joi');
 const joi = require('joi');
 const fs = require('fs');
 const path = require('path');
+const jwt = require('jsonwebtoken');
 
 // Data we have :
 // firstname
@@ -80,11 +81,19 @@ function addProfile(req, res) {
     }
 }
 
+const secretKey = 'youCantCatchme098765%^&*##@'
+
 function getProfiles(req, res) {
     try {
-        const profiles = require('../storage/profiles.json')
+        jwt.verify(req.token, secretKey, (err, authData) => {
+            if (err) {
+                res.sendStatus(403)
+            } else {
+                const profiles = require('../storage/profiles.json')
 
-        res.send(profiles)
+                res.send(profiles)
+            }
+        })
     } catch (error) {
         res.writeHead(500)
         res.send("Sorry, Data inavailable !")

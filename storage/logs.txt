@@ -105,3 +105,68 @@ A new request with method POST at /user received at 1666350602347 With following
 A new request with method POST at /user received at 1666351127968 With following infos : lastname : undefined; firstname : undefined;
 A new request with method PUT at /user/0 received at 1666351658042 With following infos : lastname : undefined; firstname : undefined;
 A new request with method DELETE at /user/0 received at 1666352892822
+A new request with method GET at / received at 1666360733396
+A new request with method GET at /index.html received at 1666360740036
+A new request with method GET at /static/ received at 1666360753699
+A new request with method GET at /static/js/script.js received at 1666360753779
+A new request with method GET at /favicon.ico received at 1666360754128
+A new request with method GET at /static/login.html received at 1666361142756
+A new request with method GET at /static/js/login.js received at 1666361142846
+A new request with method GET at /static/login.html received at 1666361187006
+A new request with method GET at /static/js/login.js received at 1666361187093
+A new request with method GET at /static/login.html? received at 1666361414147
+A new request with method GET at /static/js/login.js received at 1666361414333
+A new request with method GET at /api/login received at 1666362183137
+A new request with method GET at /static/login.html received at 1666362216838
+A new request with method GET at /static/js/login.js received at 1666362216936
+A new request with method GET at /static/login.html? received at 1666362223378
+A new request with method GET at /static/js/login.js received at 1666362223521
+A new request with method GET at /static/login.html received at 1666362262369
+A new request with method GET at /static/js/login.js received at 1666362262506
+A new request with method GET at /favicon.ico received at 1666362263379
+A new request with method GET at /static/login.html? received at 1666362267344
+A new request with method POST at /api/login received at 1666362267527 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/login.js received at 1666362267533
+A new request with method GET at /static/login.html? received at 1666362291621
+A new request with method GET at /static/js/login.js received at 1666362291669
+A new request with method GET at /static/login.html? received at 1666362303152
+A new request with method POST at /api/login received at 1666362303160 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/login.js received at 1666362303187
+A new request with method POST at /user received at 1666362338396 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/login.html? received at 1666362347372
+A new request with method POST at /api/login received at 1666362347411 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/login.js received at 1666362347480
+A new request with method POST at /api/login received at 1666362788181 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/login.html? received at 1666362788194
+A new request with method GET at /static/js/login.js received at 1666362788254
+A new request with method GET at /static/login.html? received at 1666362837060
+A new request with method POST at /api/login received at 1666362837091 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/login.js received at 1666362837139
+A new request with method GET at /static/login.html? received at 1666362910321
+A new request with method POST at /api/login received at 1666362910351 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/login.js received at 1666362910402
+A new request with method POST at /api/login received at 1666363175667 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/login.html? received at 1666363175684
+A new request with method GET at /static/js/login.js received at 1666363175732
+A new request with method GET at /static/login.html? received at 1666363291903
+A new request with method POST at /api/login received at 1666363291931 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/login.js received at 1666363291980
+A new request with method GET at /static/login.html? received at 1666363311780
+A new request with method POST at /api/login received at 1666363311783 With following infos : lastname : undefined; firstname : undefined;
+A new request with method GET at /static/js/login.js received at 1666363311829
+A new request with method GET at /profiles received at 1666363907980
+A new request with method GET at /profiles received at 1666363913130
+A new request with method GET at /profiles received at 1666363926731
+A new request with method GET at /profiles received at 1666363947287
+A new request with method GET at /static/profiles.html received at 1666364032811
+A new request with method GET at /static/js/profiles.js received at 1666364032877
+A new request with method GET at /profiles received at 1666364033178
+A new request with method GET at /private/profiles.html received at 1666364228755
+A new request with method GET at /private/profiles.html received at 1666364250733
+A new request with method GET at /private/profiles.html received at 1666364264069
+A new request with method GET at /private/profiles.html received at 1666364277064
+A new request with method GET at /private/profiles.html received at 1666364323012
+A new request with method GET at /private/profiles.html received at 1666364329325
+A new request with method GET at /private/profiles.html received at 1666364358257
+A new request with method GET at /private/profiles.html received at 1666364389341
+A new request with method GET at /private/profiles.html received at 1666364407110
